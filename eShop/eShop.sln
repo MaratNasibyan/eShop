@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D4F56FE-1757-4171-BE52-8189B997CDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C975ED82-B9FE-4CD2-A785-90E3CA4E129B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Domain", "3- Domain", "{37563E38-1069-4C26-AA35-0C09A82457BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - infrastructure", "4 - infrastructure", "{04DBC7DC-65A8-4B12-9D34-B65006F07469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{09AA03D4-9A1B-40F9-8072-11DA11DBFE23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presenatation", "1 - Presenatation", "{F5670A24-5EE9-4753-BC4A-7D5DA418DF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Domain.Core", "eShop.Domain.Core\eShop.Domain.Core.csproj", "{6941CCFA-95DD-430F-B8B3-6184EA689F59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6941CCFA-95DD-430F-B8B3-6184EA689F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6941CCFA-95DD-430F-B8B3-6184EA689F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6941CCFA-95DD-430F-B8B3-6184EA689F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6941CCFA-95DD-430F-B8B3-6184EA689F59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C975ED82-B9FE-4CD2-A785-90E3CA4E129B} = {5D4F56FE-1757-4171-BE52-8189B997CDC8}
+		{37563E38-1069-4C26-AA35-0C09A82457BD} = {5D4F56FE-1757-4171-BE52-8189B997CDC8}
+		{04DBC7DC-65A8-4B12-9D34-B65006F07469} = {5D4F56FE-1757-4171-BE52-8189B997CDC8}
+		{F5670A24-5EE9-4753-BC4A-7D5DA418DF45} = {5D4F56FE-1757-4171-BE52-8189B997CDC8}
+		{6941CCFA-95DD-430F-B8B3-6184EA689F59} = {37563E38-1069-4C26-AA35-0C09A82457BD}
+	EndGlobalSection
+EndGlobal
